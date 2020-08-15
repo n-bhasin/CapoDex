@@ -1,0 +1,23 @@
+{
+  "name": "offChainOrderBook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sign.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "@truffle/hdwallet-provider": "^1.0.42",
+    "ethers": "^5.0.7",
+    "require": "^2.4.20",
+    "web3": "^1.2.11",
+    "web3-utils": "^1.2.11"
+  }
+}

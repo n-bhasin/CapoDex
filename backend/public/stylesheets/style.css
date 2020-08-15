@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+@media (min-width: 768px) {
+  .col-md-12 {
+    /* flex: 0 0 100%; */
+    max-width: 100%;
+  }
+}
