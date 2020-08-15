@@ -6,6 +6,10 @@ A decentralized exchange that is built on ethereum blockchain and allows users t
 
 <u>NO MORE PERSONAL INFORMATION SHARING</u>
 
+### Demo
+
+Video Demo: https://www.youtube.com/watch?v=KrfXbBYJxKc
+
 ### Author
 
 ```
@@ -34,35 +38,35 @@ The key to solve this problem is Blockchain. By using blockchain technology we w
 
 ### Design Architecture
 
-#### Technology
+### Technology
 
-##### Ethereum
+#### Ethereum
 
 Ethereum is an open source, public, blockchain-based distributed computing platform and operating system featuring smart contract functionality.
 
-##### ReactJS
+#### ReactJS
 
 React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
 
-##### MongoDB
+#### MongoDB
 
 MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas
 
 ### Modeling Diagrams
 
-##### Sequence Diagram
+#### Sequence Diagram
 
 A three layer architecture which explains about the response and resques model,
 
 ![](/documentation/sequenceDiagram.png "sequenceDiagram")
 
-##### Class Diagram
+#### Class Diagram
 
 It gives the higher level of knowledge of how Smart Contracts will communicate and which kind of functions they're using.
 
 ![](/documentation/ClassDiagram.png "ClassDiagram")
 
-##### Off-Chain Orderbook
+#### Off-Chain Orderbook
 
 All the orders will be cost free and stored in database with the help of mongoDB.
 
@@ -70,7 +74,7 @@ All the orders will be cost free and stored in database with the help of mongoDB
 
 ### Data Storage
 
-##### Dex.sol
+#### Dex.sol
 
 | Function Name | Visibility | Type(pure/view/payable | Modifiers                                  | Parameters                              | Action-Notes                                                                          |
 | ------------- | ---------- | ---------------------- | ------------------------------------------ | --------------------------------------- | ------------------------------------------------------------------------------------- |
@@ -90,7 +94,7 @@ withdrawal | external | - | tokenExist | (uint amount, bytes32 ticker) | -checks
 | faucet                    | external   | -                      | -                            | (address to, uint amount)  | -mints the tokens |
 | Constructor, ERC20 public | -          | -                      | (string name, string symbol) | -takes the name and symbol | of token          |
 
-##### Offchain
+#### Offchain
 
 Orderbook Parameters that are going to store offchain.
 
