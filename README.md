@@ -4,8 +4,6 @@
 
 A decentralized exchange that is built on ethereum blockchain and allows users to trade ERC20 tokens like BAT, ZRX, REP where quote currency is DAI. All these assets will be governed by users themselves like their private keys and funds.
 
-<u>NO MORE PERSONAL INFORMATION SHARING</u>
-
 ### Demo
 
 Video Demo: https://www.youtube.com/watch?v=KrfXbBYJxKc
